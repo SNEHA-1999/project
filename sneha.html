@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function(){
+  var galleryImage = $(".gallery").find("img").first();
+  var images = [
+    "fr1.jpg",
+    "fr2.jpg",
+    "f10.jpg"
+  ];
+
+  var i = 0;
+
+  setInterval(function(){
+    i = (i+1) % images.length;
+    galleryImage.fadeOut(function(){
+        $(this).attr('src', images[i]);
+        $(this).fadeIn();
+    });
+  }, 2800);
+
+});
+$(document).ready(function(){
+   
+$("h2").mouseleave(function(){
+$(this).css("color","tomato");
+});
+});
+
+
+
+
+</script>
+</head>
+<body style="background-image:url('images/q.jpg');">
+<div id="content"></div>
+
+
+<div class="container">
+		<div class="jumbotron" style="margin-top: 20px; background-image:url('images/fr3.jpg')">
+			<center><i><h1 style="color:white; font-family:comic sans ms;">F.R.I.E.N.D.S</h1></i></center>
+		</div>
+		
+	<div id="content">
+	<div class="jumbotron" style="margin-top: 20px; background-color:white;">
+	
+<center><div class="gallery">
+      <img src="images/fr1.jpg" alt=""  width="800px" height="400px">
+    </div></center>
+	</div>
+	</div>
+
+<div class ="row">
+<div class="card-deck">
+
+<div class="card col-lg-4 bg-warning" style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr4.jpg">
+<div class="card-body">
+<h2 class="card-title" style="font-family:viner hand itc;">CHANDLER BING</h2>
+<p class="card-text  text-white" style="font-family:segoe script; font-size:20px">He’s quite outspoken with his quick, sarcastic quips as he constantly jokes around and pokes fun of his friends. He always seems to have some unusual ideas brewing in his mind that stem from external factors and he likes to focus on what the future holds, choosing to avoid his past and family life. </p>
+<a href="#" class="btn btn-info" role="button" data-toggle="modal" data-target="#1">View image</a>
+</div>
+</div>
+
+
+
+
+
+<div class="card col-lg-4  bg-warning"  style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr5.jpg">
+<div class="card-body">
+<h2 class="card-title"  style="font-family:viner hand itc;">MONICA GELLER</h2>
+<p class="card-text  text-white" style="font-family:segoe script; font-size:20px">Monica is highly conscientiousness because she is incredibly organized and persistent. She will do whatever it takes to achieve top marks for anything she takes on </p>
+<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#2">View image</a>
+</div>
+</div>
+
+
+
+
+<div class="card  col-lg-4 bg-warning"  style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr6.jpg">
+<div class="card-body">
+<h2 class="card-title"  style="font-family:viner hand itc;">PHOEBE BUFFAY</h2>
+<p class="card-text text-white" style="font-family:segoe script; font-size:20px">Phoebe is one of those people who could talk to anyone about anything. She gets her energy through talking and singing about the abstract ideas and theories she comes up with. Her imagination is incredible- just listen to any one of her songs or take a trip in her own doll house she created out of shoe boxes complete with a slide, a licorice room, an aroma room and a bubble machine </p>
+<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#3">View image</a>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+
+
+<div class ="row">
+<div class="card-deck">
+
+<div class="card col-lg-4 bg-warning" style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr7.jpg">
+<div class="card-body">
+<h2 class="card-title"  style="font-family:viner hand itc;">ROSS GELLER</h2>
+<p class="card-text  text-white" style="font-family:segoe script; font-size:20px">Ross is somewhat shy and keeps to himself- especially during his college years when interacting with Rachel, his secret crush. He is thorough and remembers specifics about certain individuals because he values loyalty.  </p>
+<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#4">view image</a>
+</div>
+</div>
+
+
+
+
+
+<div class="card col-lg-4  bg-warning" style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr8.jpg">
+<div class="card-body">
+<h2 class="card-title" style="font-family:viner hand itc;">JOEY TRIBBIANI</h2>
+<p class="card-text  text-white"style="font-family:segoe script; font-size:20px" > He could not be a more extroverted individual. He constantly thrusts himself into new social situations because of his occupation as an actor. He is very comfortable with talking to others, even though what he says may not make any sense. This is probably due his tendency to prefer abstract and theoretical way of processing information.</p>
+
+<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#5">View image</a></div>
+</div>
+
+
+
+
+<div class="card  col-lg-4 bg-warning" style="border-radius:30px">
+<img class="card-img-top img-circle" src="images/fr9.jpg">
+<div class="card-body">
+<h2 class="card-title" style="font-family:viner hand itc;">RACHEL GREEN</h2>
+<p class="card-text text-white" style="font-family:segoe script; font-size:20px">She gets her energy from interacting with her friends because she doesn’t like to be on her own. She cares about trends and her appearance in the minds of others, which leads her to be constantly aware of her surroundings. She works in the fashion industry so it’s only natural for her to act this way.</p>
+
+<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#6">View image</a></div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="images/fr4.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr4.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<!-- Modal -->
+  <div class="modal fade" id="2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body">
+          <img src="images/fr5.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr5.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="images/fr6.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr6.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="images/fr7.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr7.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="5" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body">
+          <img src="images/fr8.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr8.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="6" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <img src="images/fr9.jpg" style="width: 100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  <a href="images/fr9.jpg" class="btn btn-info" download>Download</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+</body>
+</html>
